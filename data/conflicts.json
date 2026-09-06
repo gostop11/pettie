@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "c1",
+    "type": "human_cat",
+    "title_en": "Cat hides when guests visit",
+    "why_en": "Cats often look for a safe spot when there are unfamiliar sounds and movements",
+    "gentle_idea_en": "Many families find it helps to prepare a quiet hideaway in advance",
+    "steps_en": [
+      "Place a blanket and water in a quiet room",
+      "Keep the door open to give choice when guests arrive",
+      "Wait and let your cat decide when to come out"
+    ],
+    "tags_en": [
+      "guests",
+      "hideaway",
+      "choice"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c2",
+    "type": "human_cat",
+    "title_en": "Cat knocks things off at dawn",
+    "why_en": "Dawn is often when cats are awake and curious",
+    "gentle_idea_en": "Many families find it helps to play lightly before bed and put away knockable items",
+    "steps_en": [
+      "Play lightly for 10 minutes before bed",
+      "Clear small items from tables",
+      "Create a morning greeting routine"
+    ],
+    "tags_en": [
+      "dawn",
+      "curiosity",
+      "routine"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c3",
+    "type": "human_cat",
+    "title_en": "Cat sits on keyboard while working",
+    "why_en": "Where people focus is often warm and full of attention, so cats may want to be there",
+    "gentle_idea_en": "Many families find it helps to add a warm spot right next to the keyboard",
+    "steps_en": [
+      "Place a blanket next to keyboard",
+      "Greet softly when your cat sits",
+      "Take short breaks together during work"
+    ],
+    "tags_en": [
+      "work from home",
+      "togetherness",
+      "spot"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c4",
+    "type": "human_cat",
+    "title_en": "Cat scratches sofa instead of post",
+    "why_en": "Scratching is often a natural way to care for claws and mark familiar space",
+    "gentle_idea_en": "Many families find it helps to place different scratch textures near the sofa",
+    "steps_en": [
+      "Place a vertical scratch board near sofa",
+      "Explore textures your cat likes",
+      "Offer treats and kind words near the board"
+    ],
+    "tags_en": [
+      "scratching",
+      "claws",
+      "texture"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c5",
+    "type": "human_cat",
+    "title_en": "Cat meows loudly early morning",
+    "why_en": "Morning meows are often a signal for food or time together",
+    "gentle_idea_en": "Many families find a steady evening and morning greeting routine helps",
+    "steps_en": [
+      "Check water and litter box in evening",
+      "Keep wake time similar",
+      "Greet calmly and prepare breakfast"
+    ],
+    "tags_en": [
+      "morning",
+      "signal",
+      "routine"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c6",
+    "type": "human_cat",
+    "title_en": "Cat moves away from being held",
+    "why_en": "Some cats feel uncomfortable when their body is held tight",
+    "gentle_idea_en": "Many families find spending time sitting nearby helps",
+    "steps_en": [
+      "Sit on floor and make space beside you",
+      "Extend hand and wait for choice",
+      "Pet briefly then pause"
+    ],
+    "tags_en": [
+      "distance",
+      "choice",
+      "petting"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c7",
+    "type": "human_cat",
+    "title_en": "Cat brings toys at 3am",
+    "why_en": "Play hunting instincts often rise at night",
+    "gentle_idea_en": "Many families find more hunting play during the day helps",
+    "steps_en": [
+      "Play with wand toy in evening",
+      "Set a toy box spot",
+      "Switch to quiet toys at night"
+    ],
+    "tags_en": [
+      "night",
+      "play",
+      "hunting play"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c8",
+    "type": "human_cat",
+    "title_en": "Cat stares out window and does not respond",
+    "why_en": "Outside the window is like nonstop interesting video for cats",
+    "gentle_idea_en": "Many families find sitting together by the window helps",
+    "steps_en": [
+      "Place a cushion by window",
+      "Sit quietly and watch together",
+      "Wait nearby rather than calling repeatedly"
+    ],
+    "tags_en": [
+      "window",
+      "focus",
+      "watching together"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c9",
+    "type": "human_cat",
+    "title_en": "Cat prefers one family member",
+    "why_en": "Comfort can vary by voice, movement and time spent together",
+    "gentle_idea_en": "Many families find it helps when the preferred person shares treats and play",
+    "steps_en": [
+      "Let other family members offer treats",
+      "Take turns for play",
+      "Use same soft voice"
+    ],
+    "tags_en": [
+      "family",
+      "preference",
+      "sharing"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c10",
+    "type": "human_cat",
+    "title_en": "Cat sleeps on pillow or face",
+    "why_en": "Pillows with human scent often feel safe",
+    "gentle_idea_en": "Many families find placing a cat blanket next to pillow helps",
+    "steps_en": [
+      "Place blanket next to pillow",
+      "Pet on blanket before sleep",
+      "Gently guide if moving at night"
+    ],
+    "tags_en": [
+      "sleeping spot",
+      "scent",
+      "blanket"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c11",
+    "type": "human_cat",
+    "title_en": "Cat suddenly runs fast at night",
+    "why_en": "Energy built up during day often comes out at night",
+    "gentle_idea_en": "Many families find a bit more activity in evening helps",
+    "steps_en": [
+      "Play hide and seek in evening",
+      "Encourage cat tower climbing",
+      "Give quiet time after zoomies"
+    ],
+    "tags_en": [
+      "energy",
+      "night",
+      "play"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c12",
+    "type": "human_cat",
+    "title_en": "Cat licks plastic bags",
+    "why_en": "Crinkly sound and texture can spark curiosity",
+    "gentle_idea_en": "Many families find putting plastic away and offering safe crinkly toys helps",
+    "steps_en": [
+      "Put plastic bags away right away",
+      "Offer paper bags or crinkly toys",
+      "Redirect to another play when curious"
+    ],
+    "tags_en": [
+      "curiosity",
+      "safety",
+      "toy"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c13",
+    "type": "human_dog",
+    "title_en": "Dog follows to bathroom",
+    "why_en": "Being together often feels safe",
+    "gentle_idea_en": "Many families find it helps to leave door ajar and practice waiting",
+    "steps_en": [
+      "Leave bathroom door slightly open",
+      "Greet softly after waiting",
+      "Start with short waits"
+    ],
+    "tags_en": [
+      "togetherness",
+      "waiting",
+      "security"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c14",
+    "type": "human_dog",
+    "title_en": "Dog barks at doorbell",
+    "why_en": "Doorbell can sound like sudden big change",
+    "gentle_idea_en": "Many families find pairing doorbell sound with treats helps",
+    "steps_en": [
+      "Play doorbell sound quietly",
+      "Give treat after sound",
+      "Practice waiting on mat near entrance"
+    ],
+    "tags_en": [
+      "doorbell",
+      "sound",
+      "waiting"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c15",
+    "type": "human_dog",
+    "title_en": "Dog pulls leash on walk",
+    "why_en": "Outside has many smells and sights, so they may want to go fast",
+    "gentle_idea_en": "Many families find stopping to allow sniffing helps",
+    "steps_en": [
+      "Stop when leash tightens",
+      "Walk together when leash is loose",
+      "Give plenty of sniff time"
+    ],
+    "tags_en": [
+      "walk",
+      "leash",
+      "sniff"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c16",
+    "type": "human_dog",
+    "title_en": "Dog jumps on guests",
+    "why_en": "Often expresses happy feelings with whole body",
+    "gentle_idea_en": "Many families find practicing greeting when sitting helps",
+    "steps_en": [
+      "Practice sitting on mat before guests arrive",
+      "Greet when all four paws on floor",
+      "Give treat after brief greeting"
+    ],
+    "tags_en": [
+      "guests",
+      "greeting",
+      "jumping"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c17",
+    "type": "human_dog",
+    "title_en": "Dog does not come when called at park",
+    "why_en": "Park has many interesting smells and friends, so focus can scatter",
+    "gentle_idea_en": "Many families find calling from short distance and playing after return helps",
+    "steps_en": [
+      "Call from close distance",
+      "Play together after coming",
+      "Practice with long line safely"
+    ],
+    "tags_en": [
+      "park",
+      "recall",
+      "play"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c18",
+    "type": "human_dog",
+    "title_en": "Dog whines when left alone",
+    "why_en": "Time alone can feel unfamiliar and uneasy",
+    "gentle_idea_en": "Many families find practicing short departures helps",
+    "steps_en": [
+      "Go out briefly and return",
+      "Greet calmly when back",
+      "Leave favorite toy when alone"
+    ],
+    "tags_en": [
+      "alone",
+      "departure",
+      "practice"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c19",
+    "type": "human_dog",
+    "title_en": "Dog watches during meals",
+    "why_en": "People eating is interesting social signal for dogs",
+    "gentle_idea_en": "Many families find giving a chew toy during meals helps",
+    "steps_en": [
+      "Walk before meals to use energy",
+      "Make mat spot",
+      "Give chew on mat"
+    ],
+    "tags_en": [
+      "meals",
+      "mat",
+      "spot"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c20",
+    "type": "human_dog",
+    "title_en": "Dog takes much space on bed",
+    "why_en": "Next to people is warm and secure",
+    "gentle_idea_en": "Many families find placing dog bed next to human bed helps",
+    "steps_en": [
+      "Place cozy bed beside yours",
+      "Pet there before sleep",
+      "Gently guide if moving at night"
+    ],
+    "tags_en": [
+      "bed",
+      "sleep",
+      "spot"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c21",
+    "type": "human_dog",
+    "title_en": "Dog barks at other dogs on walk",
+    "why_en": "When other dogs approach, excitement or tension can rise",
+    "gentle_idea_en": "Many families find giving treats for just watching from distance helps",
+    "steps_en": [
+      "Keep wide distance",
+      "Give treat for watching",
+      "Turn and walk other way when calm"
+    ],
+    "tags_en": [
+      "walk",
+      "other dogs",
+      "distance"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c22",
+    "type": "human_dog",
+    "title_en": "Dog chews slippers",
+    "why_en": "Items with human scent often spark curiosity",
+    "gentle_idea_en": "Many families find putting slippers away and offering chewable toys helps",
+    "steps_en": [
+      "Put slippers in closet",
+      "Place several chew toys",
+      "Play together when chewing toy"
+    ],
+    "tags_en": [
+      "slippers",
+      "chewing",
+      "toy"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c23",
+    "type": "human_dog",
+    "title_en": "Dog licks face a lot",
+    "why_en": "Licking is often a way to show closeness",
+    "gentle_idea_en": "Many families find letting lick hand then treat when pausing helps",
+    "steps_en": [
+      "Offer hand to lick",
+      "Give treat when pausing",
+      "Switch to another play"
+    ],
+    "tags_en": [
+      "licking",
+      "greeting",
+      "redirect"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c24",
+    "type": "human_dog",
+    "title_en": "Dog digs in garden",
+    "why_en": "Digging is often natural play for sniffing and using energy",
+    "gentle_idea_en": "Many families find setting a digging-allowed spot helps",
+    "steps_en": [
+      "Make sand or soil spot in corner",
+      "Hide treats there",
+      "Play digging only there"
+    ],
+    "tags_en": [
+      "garden",
+      "digging",
+      "play"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c25",
+    "type": "cat_cat",
+    "title_en": "Two cats sharing one litter box with waiting",
+    "why_en": "Preference for location and litter texture can differ",
+    "gentle_idea_en": "Many families find adding one more box in different spot helps",
+    "steps_en": [
+      "Add box in quiet spot",
+      "Try two litter types",
+      "Scoop often to reduce smell"
+    ],
+    "tags_en": [
+      "litter box",
+      "litter",
+      "location"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c26",
+    "type": "cat_cat",
+    "title_en": "One cat eats other's food",
+    "why_en": "Other bowl smell can spark more curiosity",
+    "gentle_idea_en": "Many families find feeding at same time with distance helps",
+    "steps_en": [
+      "Keep bowls apart",
+      "Feed at same time",
+      "Pick up bowls after meal"
+    ],
+    "tags_en": [
+      "meal",
+      "bowl",
+      "distance"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c27",
+    "type": "cat_cat",
+    "title_en": "One cat blocks doorway for other",
+    "why_en": "Doorway is travel path, so they may want to check their spot",
+    "gentle_idea_en": "Many families find creating another path helps",
+    "steps_en": [
+      "Place tower or shelf nearby",
+      "Open doors alternately",
+      "Make favorite room for each"
+    ],
+    "tags_en": [
+      "door",
+      "movement",
+      "spot"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c28",
+    "type": "cat_cat",
+    "title_en": "Cats chase each other at night and noisy",
+    "why_en": "Night is often energetic time, so they want to run together",
+    "gentle_idea_en": "Many families find playing together in evening helps",
+    "steps_en": [
+      "15 min wand play in evening",
+      "Climb cat tower",
+      "Leave only quiet toys at night"
+    ],
+    "tags_en": [
+      "night",
+      "chase",
+      "play"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c29",
+    "type": "cat_cat",
+    "title_en": "One grooms other too much and other annoyed",
+    "why_en": "Grooming shows closeness but too long can be tiring",
+    "gentle_idea_en": "Many families find separate resting spots help",
+    "steps_en": [
+      "Place separate cushions",
+      "Offer treat after grooming",
+      "Give separate rest time"
+    ],
+    "tags_en": [
+      "grooming",
+      "rest",
+      "space"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c30",
+    "type": "cat_cat",
+    "title_en": "Cats compete for sunny spot",
+    "why_en": "Sunny spot is warm, everyone likes it",
+    "gentle_idea_en": "Many families find making two sunny spots helps",
+    "steps_en": [
+      "Place two cushions by window",
+      "Let them take turns",
+      "Add warm blanket"
+    ],
+    "tags_en": [
+      "sun",
+      "spot",
+      "warmth"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c31",
+    "type": "cat_cat",
+    "title_en": "New cat hides and existing cat watches from distance",
+    "why_en": "New environment often needs time for both cats to adjust",
+    "gentle_idea_en": "Many families find sharing scent with door between helps",
+    "steps_en": [
+      "Stay in separate rooms with door closed",
+      "Exchange blankets for scent",
+      "Give treats under door"
+    ],
+    "tags_en": [
+      "new cat",
+      "adjustment",
+      "scent"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c32",
+    "type": "cat_cat",
+    "title_en": "One cat sits in other's favorite box",
+    "why_en": "Boxes feel safe and warm, so popular",
+    "gentle_idea_en": "Many families find adding same box helps",
+    "steps_en": [
+      "Add same size box",
+      "Place blanket in each",
+      "Separate box locations a bit"
+    ],
+    "tags_en": [
+      "box",
+      "spot",
+      "safe"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c33",
+    "type": "cat_cat",
+    "title_en": "Two cats have different play time preference",
+    "why_en": "One may be active morning, other evening",
+    "gentle_idea_en": "Many families find playing at each active time helps",
+    "steps_en": [
+      "Play with Momo morning",
+      "Play with Coco evening",
+      "Remember each favorite toy"
+    ],
+    "tags_en": [
+      "play time",
+      "preference",
+      "rhythm"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c34",
+    "type": "cat_cat",
+    "title_en": "One wants to cuddle and other wants alone",
+    "why_en": "Both cuddling and alone sleeping give comfort",
+    "gentle_idea_en": "Many families find making both close and apart spots helps",
+    "steps_en": [
+      "One close cushion",
+      "One apart cushion",
+      "Respect choice"
+    ],
+    "tags_en": [
+      "sleep",
+      "choice",
+      "distance"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c35",
+    "type": "cat_cat",
+    "title_en": "Cats stare at each other without moving",
+    "why_en": "Often watching each other and thinking next move",
+    "gentle_idea_en": "Many families find tossing toy to shift gaze helps",
+    "steps_en": [
+      "Toss toy lightly",
+      "Sprinkle treats in different directions",
+      "Play quiet music"
+    ],
+    "tags_en": [
+      "gaze",
+      "watching",
+      "redirect"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c36",
+    "type": "cat_cat",
+    "title_en": "One brings toy and other ignores",
+    "why_en": "Interest in play can differ",
+    "gentle_idea_en": "Many families find separate favorite plays help",
+    "steps_en": [
+      "Give separate toys",
+      "Play one at a time",
+      "Give rest after play"
+    ],
+    "tags_en": [
+      "toy",
+      "interest",
+      "turns"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c37",
+    "type": "dog_dog",
+    "title_en": "Two dogs pull in different directions on walk",
+    "why_en": "Each may want different smells",
+    "gentle_idea_en": "Many families find taking turns for sniff time helps",
+    "steps_en": [
+      "Let one sniff at a time",
+      "Pause briefly then walk",
+      "Give treat break mid walk"
+    ],
+    "tags_en": [
+      "walk",
+      "sniff",
+      "direction"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c38",
+    "type": "dog_dog",
+    "title_en": "One finishes fast and looks at other's bowl",
+    "why_en": "Eating speed can differ",
+    "gentle_idea_en": "Many families find distance and slow feeder helps",
+    "steps_en": [
+      "Keep bowls apart",
+      "Use slow feeder",
+      "Wait until both finish"
+    ],
+    "tags_en": [
+      "meal",
+      "speed",
+      "bowl"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c39",
+    "type": "dog_dog",
+    "title_en": "Dogs bark together at window",
+    "why_en": "Often react together to outside sounds",
+    "gentle_idea_en": "Many families find practicing waiting on mat away from window helps",
+    "steps_en": [
+      "Place mat away from window",
+      "Give treat on mat",
+      "Partially cover view with curtain"
+    ],
+    "tags_en": [
+      "window",
+      "barking",
+      "mat"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c40",
+    "type": "dog_dog",
+    "title_en": "One wants to play and other wants to rest",
+    "why_en": "Energy levels can differ",
+    "gentle_idea_en": "Many families find separate time for each helps",
+    "steps_en": [
+      "Play first with playful dog",
+      "Give quiet space to resting dog",
+      "Take turns resting"
+    ],
+    "tags_en": [
+      "energy",
+      "play",
+      "rest"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c41",
+    "type": "dog_dog",
+    "title_en": "Sharing same bed and one pushes",
+    "why_en": "Warm spot, so want to be close",
+    "gentle_idea_en": "Many families find adding another bed helps",
+    "steps_en": [
+      "Place two beds together",
+      "Place favorite blanket each",
+      "Pet each in own spot before sleep"
+    ],
+    "tags_en": [
+      "bed",
+      "spot",
+      "warmth"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c42",
+    "type": "dog_dog",
+    "title_en": "One gets jealous when other gets pets",
+    "why_en": "When attention goes one way, desire to be together can grow",
+    "gentle_idea_en": "Many families find alternating pets and treats together helps",
+    "steps_en": [
+      "Pet one at a time alternately",
+      "Give treats to both together",
+      "Increase time sitting together"
+    ],
+    "tags_en": [
+      "petting",
+      "attention",
+      "alternating"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c43",
+    "type": "dog_dog",
+    "title_en": "Dogs play rough and sounds loud",
+    "why_en": "Playing together can sound loud",
+    "gentle_idea_en": "Many families find a pause signal during play helps",
+    "steps_en": [
+      "Pause with treat during play",
+      "Give water break",
+      "Resume when calm"
+    ],
+    "tags_en": [
+      "play",
+      "sound",
+      "pause"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c44",
+    "type": "dog_dog",
+    "title_en": "One shy and other outgoing with guests",
+    "why_en": "Different styles lead to different greetings",
+    "gentle_idea_en": "Many families find giving each a choice spot helps",
+    "steps_en": [
+      "Make quiet room spot",
+      "Outgoing dog greets at entrance",
+      "Ask guests to greet slowly"
+    ],
+    "tags_en": [
+      "guests",
+      "style",
+      "choice"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c45",
+    "type": "dog_dog",
+    "title_en": "Dogs have different walking speed",
+    "why_en": "Leg length and stamina can differ",
+    "gentle_idea_en": "Many families find alternating fast and slow time helps",
+    "steps_en": [
+      "Make fast walk section",
+      "Make slow sniff section",
+      "Rest together mid way"
+    ],
+    "tags_en": [
+      "walk",
+      "speed",
+      "rest"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c46",
+    "type": "dog_dog",
+    "title_en": "Dogs swap toys constantly",
+    "why_en": "Other's toy can look more interesting",
+    "gentle_idea_en": "Many families find having two same toys helps",
+    "steps_en": [
+      "Prepare two same toys",
+      "Play with own toy each",
+      "Trade with treat if want to swap"
+    ],
+    "tags_en": [
+      "toy",
+      "swap",
+      "same"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c47",
+    "type": "dog_dog",
+    "title_en": "One whines when other goes out alone",
+    "why_en": "Being apart after together can feel unfamiliar",
+    "gentle_idea_en": "Many families find practicing short separations helps",
+    "steps_en": [
+      "Step out briefly and return",
+      "Greet calmly on return",
+      "Give chew when alone"
+    ],
+    "tags_en": [
+      "outing",
+      "waiting",
+      "practice"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c48",
+    "type": "dog_dog",
+    "title_en": "Both want to sit on lap at same time",
+    "why_en": "Lap is warm and close, so popular",
+    "gentle_idea_en": "Many families find placing cushion next to lap helps",
+    "steps_en": [
+      "Place cushion beside lap",
+      "One on lap, one on cushion petting",
+      "Swap spots alternately"
+    ],
+    "tags_en": [
+      "lap",
+      "spot",
+      "alternating"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c49",
+    "type": "dog_cat",
+    "title_en": "Dog wants to play and cat walks away",
+    "why_en": "Play styles differ, so cat may move to quiet place",
+    "gentle_idea_en": "Many families find separate play times help",
+    "steps_en": [
+      "Play outside with dog first",
+      "Quiet wand play with cat",
+      "Give separate resting spots"
+    ],
+    "tags_en": [
+      "play",
+      "style",
+      "separate"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c50",
+    "type": "dog_cat",
+    "title_en": "Cat sits on dog bed and dog watches",
+    "why_en": "Dog bed is soft and warm, cats may like it too",
+    "gentle_idea_en": "Many families find adding same shape bed helps",
+    "steps_en": [
+      "Add same shape bed",
+      "Place blanket each",
+      "Give treat in own bed"
+    ],
+    "tags_en": [
+      "bed",
+      "spot",
+      "warmth"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c51",
+    "type": "dog_cat",
+    "title_en": "Dog chases cat when cat runs",
+    "why_en": "Fast movement can look like play signal to dogs",
+    "gentle_idea_en": "Many families find giving cat high places helps",
+    "steps_en": [
+      "Install cat tower or shelf",
+      "Practice mat waiting for dog",
+      "Give treat when cat comes down"
+    ],
+    "tags_en": [
+      "chase",
+      "high spot",
+      "waiting"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c52",
+    "type": "dog_cat",
+    "title_en": "Cat swats when dog sniffs too close",
+    "why_en": "When too close, they may send distance signal",
+    "gentle_idea_en": "Many families find guiding greeting with distance helps",
+    "steps_en": [
+      "Keep leash loose and keep distance",
+      "Give treat when cat sees dog",
+      "Sprinkle treats opposite directions"
+    ],
+    "tags_en": [
+      "distance",
+      "greeting",
+      "signal"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c53",
+    "type": "dog_cat",
+    "title_en": "Dog eats cat food and cat watches",
+    "why_en": "Cat food smell is strong and can spark dog curiosity",
+    "gentle_idea_en": "Many families find placing cat food up high helps",
+    "steps_en": [
+      "Place cat food on shelf",
+      "Feed dog at same time on floor",
+      "Pick up bowls after"
+    ],
+    "tags_en": [
+      "meal",
+      "high spot",
+      "bowl"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c54",
+    "type": "dog_cat",
+    "title_en": "Cat uses dog water bowl as toy",
+    "why_en": "Some cats like playing with water using paws",
+    "gentle_idea_en": "Many families find making separate water bowl for cat helps",
+    "steps_en": [
+      "Place separate water bowl for cat",
+      "Give floating toy",
+      "Use heavy bowl for dog"
+    ],
+    "tags_en": [
+      "water bowl",
+      "play",
+      "separate"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c55",
+    "type": "dog_cat",
+    "title_en": "Dog barks and cat hides under bed",
+    "why_en": "Loud sound can be startling for cats",
+    "gentle_idea_en": "Many families find preparing cat hideaway in advance helps",
+    "steps_en": [
+      "Place blanket under bed",
+      "Give quiet treat to cat after bark",
+      "Practice mat waiting for dog"
+    ],
+    "tags_en": [
+      "sound",
+      "hideaway",
+      "waiting"
+    ],
+    "dim": "EI"
+  },
+  {
+    "id": "c56",
+    "type": "dog_cat",
+    "title_en": "Cat sleeps high and dog whines below",
+    "why_en": "High places feel safe for cats and dogs want to be together",
+    "gentle_idea_en": "Many families find making warm spot below helps",
+    "steps_en": [
+      "Place dog bed under cat tower",
+      "Pet each in own spot",
+      "Make together time separately"
+    ],
+    "tags_en": [
+      "high spot",
+      "spot",
+      "together"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c57",
+    "type": "dog_cat",
+    "title_en": "Dog and cat have different cuddle time preferences",
+    "why_en": "One may want cuddle morning, other evening",
+    "gentle_idea_en": "Many families find cuddling at each preferred time helps",
+    "steps_en": [
+      "Cuddle dog in morning",
+      "Quiet time with cat evening",
+      "Respect each signal"
+    ],
+    "tags_en": [
+      "cuddle",
+      "time",
+      "preference"
+    ],
+    "dim": "JP"
+  },
+  {
+    "id": "c58",
+    "type": "dog_cat",
+    "title_en": "Dog wags tail fast and cat misunderstands as excitement",
+    "why_en": "Tail wag can be happy for dogs but tense for cats",
+    "gentle_idea_en": "Many families find giving treats with distance helps",
+    "steps_en": [
+      "Give treats apart",
+      "Practice mat waiting when tail wags",
+      "Be together when calm"
+    ],
+    "tags_en": [
+      "tail",
+      "signal",
+      "distance"
+    ],
+    "dim": "SN"
+  },
+  {
+    "id": "c59",
+    "type": "dog_cat",
+    "title_en": "Cat grooms and dog tries to lick cat",
+    "why_en": "Grooming signals comfort and dog may want to join",
+    "gentle_idea_en": "Many families find separate grooming time helps",
+    "steps_en": [
+      "Give cat grooming time up high",
+      "Give chew toy to dog",
+      "Give treats together after"
+    ],
+    "tags_en": [
+      "grooming",
+      "separate",
+      "together"
+    ],
+    "dim": "TF"
+  },
+  {
+    "id": "c60",
+    "type": "dog_cat",
+    "title_en": "Both want window spot with different styles",
+    "why_en": "Window is interesting, both often like it",
+    "gentle_idea_en": "Many families find making two spots by window helps",
+    "steps_en": [
+      "Place two cushions by window",
+      "One high shelf one low bed",
+      "Make time to watch together"
+    ],
+    "tags_en": [
+      "window",
+      "spot",
+      "watch together"
+    ],
+    "dim": "EI"
+  }
+]

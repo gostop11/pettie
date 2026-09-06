@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pettie - MBTI Behavior Library (English)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- ENV INJECTION - 키는 여기서 하드코딩하지 않음, 배포시 env.js가 주입 -->
+  <script>
+    // 로컬 개발시 window.__ENV__ 를 env.js에서 주입하거나 localStorage에 저장
+    // 예: localStorage.setItem('PETTIE_SUPABASE_URL', 'https://xxx.supabase.co')
+    window.__ENV__ = window.__ENV__ || {};
+  </script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">Pettie<span>.</span></div>
+    <div class="header-badges">
+      <span class="badge">5 types · 60 seed · infinite</span>
+      <span id="db-status" class="badge">Loading DB status...</span>
+      <button id="login-btn">Log in</button>
+    </div>
+  </header>
+
+  <!-- Intro -->
+  <div class="intro">
+    <div class="intro-icon">🐾</div>
+    <p><strong>MBTI Behavior Library - English Preview.</strong> Many families find it helps to understand each companion's style. Choose your family type below. All actions require login - anonymous not allowed because votes, photos, edits are linked to user_id in DB.</p>
+  </div>
+
+  <!-- Config helper - shows if Supabase not configured -->
+  <div id="config-helper" class="config-helper" style="display:none">
+    <strong>🔑 Supabase not configured - running on local JSON (60 conflicts from your verified DB)</strong><br>
+    To connect live DB: open DevTools Console and run:<br>
+    <code>localStorage.setItem('PETTIE_SUPABASE_URL','https://YOUR_ID.supabase.co'); localStorage.setItem('PETTIE_SUPABASE_ANON_KEY','YOUR_ANON_KEY'); location.reload()</code><br>
+    Or create <code>.env</code> from <code>.env.example</code>. Keys are never hardcoded in source (config.js).
+  </div>
+
+  <div class="layout">
+    <!-- Filters sidebar (desktop) / top scroll (mobile) -->
+    <div class="filters-wrap">
+      <div id="filters"></div>
+    </div>
+
+    <div>
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search: guest, walk, bed, hide, bark..." />
+      </div>
+      <main id="grid" class="grid"></main>
+    </div>
+  </div>
+
+  <!-- Detail Drawer -->
+  <div id="drawer-overlay" class="drawer-overlay"></div>
+  <aside id="detail-drawer" class="detail-drawer">
+    <button id="detail-close" class="detail-close">✕</button>
+    <div id="detail-content" class="detail-content"></div>
+  </aside>
+
+  <!-- Auth Modal - Login required -->
+  <div id="auth-overlay" class="drawer-overlay"></div>
+  <div id="auth-modal" class="auth-modal">
+    <h3>Login required</h3>
+    <p id="auth-action-text">This action needs user_id</p>
+    <p style="font-size:12px">DB structure: pet_photos needs pet_id + photo_url (max 3), conflict_votes needs user_id, reviews needs user_id. Anonymous would break reputation (60→600→infinite).</p>
+    <button id="demo-login-btn" class="btn btn-primary">Demo login (local)</button>
+    <button id="auth-close" class="btn btn-secondary">Close</button>
+    <p style="margin-top:12px; font-size:11px; color:#8A8580">Real app uses Supabase Auth. anon key is public but protected by RLS. service_role key never in frontend.</p>
+  </div>
+
+  <!-- Scripts - multi-file as you wanted -->
+  <script type="module">
+    import { config } from './js/config.js';
+    import { getSupabaseClient, testConnection } from './js/supabase-client.js';
+    import { loadConflicts, getCountsByType } from './js/data.js';
+    import { createFilterState, filterConflicts, renderFilters, RELATIONSHIP_TYPES } from './js/filters.js';
+    import { renderCards } from './js/cards.js';
+    import { createDetailManager } from './js/detail.js';
+    import { createAuthManager } from './js/auth.js';
+
+    window.pettieConfig = config;
+
+    const state = createFilterState();
+    const detailManager = createDetailManager();
+    const authManager = createAuthManager();
+    let allConflicts = [];
+
+    async function init() {
+      // Check Supabase config
+      const conn = await testConnection();
+      document.getElementById('config-helper').style.display = conn.connected ? 'none' : 'block';
+      if (!conn.connected) {
+        console.log('Running on local fallback:', conn);
+      }
+
+      // Load 60 conflicts (Supabase or local JSON)
+      allConflicts = await loadConflicts();
+      
+      const counts = getCountsByType(allConflicts);
+      counts.all = allConflicts.length;
+      
+      // Update filter counts from real data (12 each)
+      RELATIONSHIP_TYPES.forEach(t => {
+        if (t.id !== 'all') t.count = counts[t.id] || 0;
+      });
+
+      // Render filters
+      renderFilters(document.getElementById('filters'), state, counts, render);
+
+      // Search
+      document.getElementById('search').addEventListener('input', (e) => {
+        state.setSearch(e.target.value);
+        render();
+      });
+
+      render();
+      authManager.updateUI();
+    }
+
+    function render() {
+      const filtered = filterConflicts(allConflicts, state);
+      renderCards(document.getElementById('grid'), filtered, (id) => {
+        const conflict = allConflicts.find(c => c.id === id);
+        if (conflict) detailManager.open(conflict);
+      });
+    }
+
+    init();
+  </script>
+</body>
+</html>
